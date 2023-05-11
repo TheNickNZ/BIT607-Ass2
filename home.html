@@ -51,7 +51,13 @@
     <div class="main">
             <h1 id="home">Welcome to The Haukai Restaurant</h1>
             <div>
-              <img id="mainimg" src=".\assets\images\restaurant.jpg" ALT="Image of Haukai Restaurant Interior">
+            <!--      <img id="mainimg" src=".\assets\images\restaurant.jpg" ALT="Image of Haukai Restaurant Interior">  -->
+        <picture>
+        <source srcset=".\assets\images\restaurant_600.jpg" media="(max-width: 600px)">
+        <source srcset=".\assets\images\restaurant.jpg">
+        <img  id="mainimg" src=".\assets\images\restaurant.jpg" alt="Image of Haukai Restaurant Interior">
+      </picture>
+
             </div>
             <p>Welcome to Haukai Restaurant, located in the stunning Bay of Islands! We specialize in serving traditional Māori kai with a twist,
                making our restaurant a must-visit destination for both locals and tourists.</p>
