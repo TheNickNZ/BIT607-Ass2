@@ -309,7 +309,10 @@ button:hover {
   float: left;
 }
 
- 
+html {
+  
+  padding-bottom: 100px; /* Height of the sticky footer allowing for multiple lines of copyright text */
+} 
  
 }
 
