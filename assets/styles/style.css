@@ -145,7 +145,7 @@ html {
     height: auto
   }
 
-  #menuimg {
+  .menuimgcolumn img {
     width:auto;
     height: 150px;
     float: right
